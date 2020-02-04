@@ -1,0 +1,20 @@
+{
+  "name": "websitetemplate",
+  "version": "1.0.0",
+  "description": "website templates so i dont have to do it all over again",
+  "main": "main.js",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp-plumber": "^1.0.1",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-uglify": "^1.5.1",
+    "plumber": "^0.4.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amby Chy",
+  "license": "ISC"
+}

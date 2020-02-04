@@ -1,0 +1,50 @@
+$borderblack : solid 2px #000000;
+$borderwhite : solid 2px #ffffff;
+
+$black: #000000;
+$white: #ffffff;
+$orange: #ff8b38;
+$grey: #f5f5f5;
+$grey2: #D8D8D8;
+
+@mixin transform($value){
+
+		-webkit-transform: $value;
+		-moz-transform: $value;
+		transform: $value;
+
+
+}
+
+@mixin box-shadow($shadow){
+
+		-webkit-box-shadow:($shadow);
+		-moz-box-shadow:($shadow);
+		box-shadow:($shadow);
+
+
+}
+
+@mixin border-radius($radius){
+
+		-webkit-border-radius: $radius;
+		-moz-border-radius: $radius;
+		border-radius: $radius;
+
+
+}
+
+@mixin transition($transition){
+
+		-webkit-transition: $transition;
+		transition: $transition;
+
+
+}
+
+@mixin wrap($wrap){
+
+		-webkit-flex-wrap: $wrap;
+		flex-wrap: $wrap;
+
+}
